@@ -1,0 +1,462 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+:root{
+    --primary:indianred;
+    --secondary:rgba(183, 164, 235, 0.849);
+    --light:#2f3640;
+}
+/* header{
+    width: 100%;
+    height: 25vh;
+} */
+
+.nav1 .left h1{
+    color: var(--primary);
+    margin-left: 4vh;
+    font-size: 2rem;
+}
+
+.nav1{
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 6px grey;
+}
+.nav2 .left {
+    margin-left: 15px;
+}
+
+.nav1 .left{
+    flex-basis: 50%;
+    letter-spacing: 0px;
+    margin: auto;
+    color: white;
+
+    
+
+}
+
+.nav2 .left a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 0px 5px;
+
+
+}
+.nav2 .left a:hover{
+    color:white;
+}
+.nav1 .right{
+    
+    flex-basis: 50%;
+    /* margin-right: 3vh;
+    margin-left: 84vh; */
+   
+
+}
+.nav1 .right a{
+    text-decoration: none;
+}
+
+.nav1 .right i{
+    
+    font-size: 20px;
+    margin: 0px 15px;
+    background-color: var(--primary);
+    color: honeydew;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    display: inline-block;
+
+
+
+}
+
+.nav1 .right i:hover{
+    transform: rotate(360deg);
+}
+
+
+
+    .nav2{
+        font-family: 'Akaya Kanadaka', cursive;
+        font-size: 1.0rem;
+        background: #f7cbcb;
+        width: 100%;
+        height: 98px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+       
+    }
+
+    .nav2 .nav2-left, .nav2 .nav2-right , .nav2 .nav2-center{
+        flex-basis: 30%;
+        margin: auto;
+        cursor: pointer;
+    }
+    .nav2 .nav2-left i{
+        margin-left: 15px;
+    }
+
+    .nav2 .nav2-center h1{
+       color: var(--primary);
+       font-size: 2rem;
+       letter-spacing: 5px;
+       font-weight: bold;
+       
+   } 
+   .nav2 .nav2-center p{
+       font-size: 10px;
+       color: grey;
+       margin-top: 5px;
+   }
+   .nav2 .nav2-right i{
+       margin: 0px 5px;
+   }
+   .nav2 .nav2-left a{
+    color: var(--primary);
+    text-decoration: none;
+    /* font-weight: 300; */
+    display: inline;
+    letter-spacing: 0px;
+
+   }
+   .nav2 .nav2-left a:hover{
+       color: rgb(238, 16, 16);
+   }
+
+   .nav3{
+       /* background-color: rgb(63, 61, 61); */
+    display: flex;
+       height: 89vh;
+       width: 100%;
+       line-height: 60px;
+       background-image: url(img/pis.jpg);
+        background-size: cover;
+       /* background-color: rgb(243 177 183 / 51%); */
+    }
+
+    .nav3 ul {
+        text-align: center;
+        list-style: none;
+
+
+    }
+    .nav3 ul li{
+        
+        letter-spacing: 2px;
+        /* padding: 20px;
+        margin: 20px; */
+        display: inline-block;
+        width: 150px;
+        position: relative; 
+        z-index: 90;
+
+    }
+.nav3 ul li a{
+    color: #e9dfdf;
+        text-decoration: none;
+    font-weight: 500;
+    display: block;
+    /* padding: 7px 13px; */
+    border-radius:3px ;
+    
+
+}
+   .nav3 ul li a:hover{
+       color: var(--primary);
+       transition: .5s;
+       border:solid black;
+       background-color: black;
+       border-radius: 6px;
+
+   }
+
+   .nav3 ul li i{
+       color: var(--primary);
+       margin: 0px 5px;
+       
+
+   }
+   /* cart ki doubl list */
+   .nav3 ul ul{
+       position: absolute;
+       top: 70px;
+       left: 0;
+       display: none;
+   }
+
+.nav3 ul ul li{
+    color: rgb(243, 24, 24);
+ background-color:rgb(33, 34, 34);
+ border-bottom: 1px solid var(--primary);   
+}
+
+.nav3 ul li:hover>ul{
+    display: block;
+}
+/* .CHECKBTN{
+    font-size: 50px;
+    color: white;
+    float: right;
+    line-height: 80px; */
+    /* margin-right: 10px; */
+
+/* } */
+/* .CHECKBTN i{
+    color: var(--primary);
+} */
+
+.featured{
+    background-image: url(pis.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    width: 100%;
+    height: 89vh;
+    color: var(--primary);
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.featured .featured-text h2{
+    font-family: 'Akaya Kanadaka', cursive;
+    
+}
+.featured .featured-text {
+    text-align: center;
+    /* margin-top: 80px; */
+    margin: 10px;
+    display:inline;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    
+    
+    
+    
+    
+}
+
+
+.featured .featured-text button{
+    
+    width: 18rem;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    margin: 20px 0px;
+    color: white;
+    border: solid rgb(216, 70, 70);
+    border-radius: 15px;
+    
+
+
+    
+    
+}
+.featured .featured-text .btn:hover{
+    background-color: rgb(255, 102, 102);
+    color: black;
+}
+
+
+.latest{
+    padding: 50px 100px;
+    background: linear-gradient(-55deg , rgb(241, 235, 236) , rgb(245, 194, 194));
+    background-size: 400% 400%;
+    
+}
+.product-intro{
+    text-align: center;
+}
+.product-intro h1{
+    color: var(--primary);
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+     
+
+
+}
+.product-intro h1 span{
+    color: black;
+}
+.product-intro p{
+    color: black;
+    margin: 15px 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    margin: 4rem 0 ;
+
+
+}
+.card button{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 5px 20px;
+    /* width: 15rem; */
+    /* height: 6vh; */
+}
+.card button:hover{
+    color: whitek;
+
+    background-color: rgb(32, 24, 24);
+}
+.card i{
+    color: goldenrod;
+    margin: 10px 0;
+    width: 25px;
+}
+
+.card-container .card{
+    flex-basis: 20%;
+    padding: 0.8rem;
+    position: relative;
+}
+.contner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    margin: 14rem 0 ;
+
+}
+.contner2 .card{
+    flex-basis: 20%;
+}
+ .card {
+     
+    margin: 19px 9px 27px;
+     width: 160px;
+     height: 550px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+} 
+.card h1{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.card img {
+    width: 258px;
+    height: 272px;
+    transition:0.6s ease-in-out;
+    transition: width 1s, height .5s;
+}
+.contner 
+    {
+        
+    display: inline-block;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 20px;
+}
+.card:hover img {
+    width: 240px;
+    height: 250px;
+    color: var(--primary);
+
+}
+.card:hover{
+
+    color: var(--primary);
+}
+.trends{
+    padding: 50px 50px;
+    background-color:rgba(0,0,0,0.01) ;
+}
+
+
+/*
+.trends .swiper-container {
+    width: 100%;
+    padding: 50px;
+    /* padding-bottom: 50px; */
+     
+  .trends .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.trends .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}  
+footer{
+    background:rgb(44, 43, 43);
+    width: 100%;
+    height: 9rem;
+    color: white;
+    font-family: 'Akaya Kanadaka', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+footer .left h2{
+    font-family: 'Akaya Kanadaka', cursive;
+margin: 0 0 0;
+font-size: 3rem;
+    color: var(--primary);
+    letter-spacing: 0.2rem;
+}
+footer div{
+    flex-basis: 30%;
+}
+footer i{
+    margin: 0px 5px;
+}
+
+/* @media only screen and (max-width:1072px) */
+
+.swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 1px 300px 0px 500px;
+    z-index: 1;
+}

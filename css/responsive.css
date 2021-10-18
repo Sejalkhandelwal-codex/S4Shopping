@@ -1,0 +1,18 @@
+@media screen and(max-width: 1100px ) {
+    
+    .nav1 {
+    background-color:blue;
+    height: 141px;
+    display: grid;
+    
+    }
+    .nav1 .left h1{ 
+    font-weight: bolder; 
+    letter-spacing: -1px;
+  }
+
+     .nav1 .right i{ 
+
+     display: none;
+    }
+}

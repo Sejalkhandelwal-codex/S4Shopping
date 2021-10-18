@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage1</title>
+</head>
+<style>
+    body{
+        background-image: url(img/pis.jpg);
+        /* background-color: black; */
+        margin: 0%;
+        padding: 0ex;
+        font-family: sans-serif;
+        background-size: cover;
+        
+    }
+   #container{
+      
+   width: 200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   }
+   h1{
+       
+
+       /* color: rgb(68, 185, 32); */
+       /* text-align: center; */
+       font-size: 39px;
+       float: left;
+       border-bottom: 5px solid #4caf50;
+       margin-bottom: 13px;
+       padding: 13px 0px;
+    
+       
+   }
+
+.item{ 
+     margin: 8px 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 2px solid #4caf50;
+    
+    
+    
+}
+#btn{
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    border:2px solid #4caf50 ;
+    /* outline: none; */
+    background: none;
+    color: rgb(250, 243, 243); 
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: grey;
+    color: rgb(151, 240, 151);
+}
+.item input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    width: 80px;
+    float: left;
+    margin: 10px;
+    color: grey;
+}
+.block a{
+    
+    color: pink;
+    text-decoration: none;
+   
+}
+.block a:hover{
+    color:rgb(182, 74, 74);
+}
+</style>
+<body>
+    <div class="block">
+<a href="index.html"> <h1> S4-SHOPPING</h1></a>
+</div>
+    <form  id="container" >
+            <h1 > Login </h1>
+    <!-- <hr  id="line" width="100px"> -->
+    <div class="item">
+        
+        <input class="item" type="Username" placeholder="username">
+    </div>
+    <div class="item">
+        <input class="item" type="password" placeholder="password">
+    </div>
+    
+    <button id="btn" ><a> sign in</a> </button>
+</form>
+</body>
+</html>
